@@ -6,14 +6,14 @@
 radius = 232.88634
 
 [node name="Player" type="CharacterBody2D" unique_id=37520218 groups=["Player"]]
-position = Vector2(132, 105)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=949389877 groups=["Player"]]
+position = Vector2(127, 42)
+scale = Vector2(0.33924845, 0.33916083)
+shape = SubResource("CircleShape2D_itxgx")
+one_way_collision = true
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=144761262 groups=["Player"]]
 position = Vector2(123, 37)
 scale = Vector2(0.33924845, 0.33916083)
 texture = ExtResource("1_jwhbh")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D" unique_id=949389877 groups=["Player"]]
-position = Vector2(11.7907715, 14.742249)
-shape = SubResource("CircleShape2D_itxgx")
-one_way_collision = true
