@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://c1nkg120cv5x0"]
+
+[ext_resource type="Texture2D" uid="uid://n1aji8kxcjf8" path="res://Image_768.jpeg" id="1_0hol4"]
+[ext_resource type="Texture2D" uid="uid://c1gs0tmg0t4b8" path="res://IMG_4292-removebg-preview.png" id="2_q6r6c"]
+[ext_resource type="Texture2D" uid="uid://bmw7mag6617xu" path="res://IMG_4291-removebg-preview.png" id="3_kdubu"]
+[ext_resource type="Texture2D" uid="uid://cfim5l4xgips1" path="res://IMG_4300-removebg-preview.png" id="4_d21ai"]
+
+[node name="Node2D" type="Node2D" unique_id=703001083]
+
+[node name="Sprite2D" type="CharacterBody2D" parent="." unique_id=494351606]
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D" unique_id=1555199575 groups=["Background"]]
+position = Vector2(574.5, 328)
+scale = Vector2(3.0175002, 1.7299999)
+texture = ExtResource("1_0hol4")
+
+[node name="Cds" type="CharacterBody2D" parent="." unique_id=265207072]
+
+[node name="Cd1" type="Sprite2D" parent="Cds" unique_id=975118708 groups=["CDs"]]
+position = Vector2(264.25, 488.5)
+scale = Vector2(0.1828231, 0.1816037)
+texture = ExtResource("2_q6r6c")
+
+[node name="Cd2" type="Sprite2D" parent="Cds" unique_id=932880745 groups=["CDs"]]
+position = Vector2(405, 561)
+scale = Vector2(0.20769566, 0.20518877)
+texture = ExtResource("2_q6r6c")
+
+[node name="Cd3" type="Sprite2D" parent="Cds" unique_id=2078668459 groups=["CDs"]]
+position = Vector2(541, 502)
+scale = Vector2(0.17602037, 0.16509432)
+texture = ExtResource("2_q6r6c")
+
+[node name="Cd4" type="Sprite2D" parent="Cds" unique_id=550246088 groups=["CDs"]]
+position = Vector2(714, 560)
+scale = Vector2(0.21938774, 0.22169814)
+texture = ExtResource("2_q6r6c")
+
+[node name="Cd5" type="Sprite2D" parent="Cds" unique_id=1292671587 groups=["CDs"]]
+position = Vector2(855, 510)
+scale = Vector2(0.18452378, 0.17688674)
+texture = ExtResource("2_q6r6c")
+
+[node name="Spawntube" type="CharacterBody2D" parent="." unique_id=1968439181]
+
+[node name="Spawntube" type="Sprite2D" parent="Spawntube" unique_id=1665199753 groups=["Background"]]
+position = Vector2(87, 553)
+texture = ExtResource("3_kdubu")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=646197529]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1103938391]
+position = Vector2(1043, 552)
+scale = Vector2(0.566, 0.516)
+texture = ExtResource("4_d21ai")
